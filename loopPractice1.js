@@ -69,6 +69,21 @@ for (i = 1; i <= 10; i++) {
     console.log(i * i);
 }
 
+//Length of a number:
+let num6 = 917832441;
+if (num6 == 0) {
+    console.log(1);
+
+} else {
+    for (let i = 0; num6 > 0; i++) {
+        num6 = (num6 - (num6 % 10)) / 10;
+        if (num6 == 1) {
+            console.log(i + 1);
+
+        }
+    }
+}
+
 
 
 
