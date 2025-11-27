@@ -48,7 +48,19 @@ for (let div = 1; div <= 50; div++) {
         console.log(div);
 
     }
-
 }
+console.log(" ");
+
+// reverse a number:
+let digits = 4567;
+let rev = 0;
+for (i = 1; i <= 4; i++) {
+    let num4 = digits % 10;
+    rev = rev * 10 + num4;
+    digits = (digits - num4) / 10;
+}
+console.log(rev);
+
+
 
 
