@@ -39,4 +39,16 @@ console.log("");
 for (let x = 10; x >= 1; x--) {
     console.log(x);
 }
+console.log("");
+
+//Num divisible by 3
+
+for (let div = 1; div <= 50; div++) {
+    if (div % 3 == 0) {
+        console.log(div);
+
+    }
+
+}
+
 
