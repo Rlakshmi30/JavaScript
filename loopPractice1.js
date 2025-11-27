@@ -61,6 +61,14 @@ for (i = 1; i <= 4; i++) {
 }
 console.log(rev);
 
+//Square of nums:
+//let num5;
+for (i = 1; i <= 10; i++) {
+    // num5 = i ** i;
+
+    console.log(i * i);
+}
+
 
 
 
