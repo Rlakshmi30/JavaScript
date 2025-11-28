@@ -1,10 +1,10 @@
-/*let sum = 0;
-for (let num = 1; num <= 5; num++) {
-    sum += num;
-}
-console.log("sum =", sum);*/
-let sum2 = 0;
-for (let a = 1; a <= 10; a += 2) {
-    console.log(a);
+let num = 1;
 
-}
+do {
+    if (num % 2 === 0) {
+        console.log(num, "Even");
+    } else {
+        console.log(num, "Odd");
+    }
+    num++;
+} while (num <= 10);
